@@ -1,0 +1,32 @@
+* {
+  background-color: aqua;
+}
+
+.project {
+  border: 1px solid;
+  height: 300px;
+  border-radius: 20px;
+  margin: 0 30px;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 100px auto;
+}
+
+.button{
+    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
+    background: linear-gradient(145deg, #e2e8ec, #ffffff);
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    transition: var(--transition);
+    background: var(--background-color-1);
+    box-shadow: var(--shadow-1);
+    position: relative;
+}
