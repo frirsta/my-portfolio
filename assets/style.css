@@ -1,12 +1,24 @@
 * {
-  background-color: aqua;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.project {
-  border: 1px solid;
-  height: 300px;
-  border-radius: 20px;
-  margin: 0 30px;
+h1 {
+  background-image: url("images/flowers.jpg");
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px #0085a3);
+  font-size: 100px;
+}
+
+header {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .section {
@@ -14,19 +26,58 @@
   margin: 100px auto;
 }
 
-.button{
-    box-shadow: 5px 5px 15px #D1D9E6, -5px -5px 15px #ffffff;
-    background: linear-gradient(145deg, #e2e8ec, #ffffff);
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    font-size: 14px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    border-radius: 6px;
-    transition: var(--transition);
-    background: var(--background-color-1);
-    box-shadow: var(--shadow-1);
-    position: relative;
+.button {
 }
+
+/* navbar */
+.navbar {
+}
+
+.navbar-nav {
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.nav-item {
+  margin: 0 50px;
+}
+.navbar-brand {
+  background-image: url("images/flowers.jpg");
+  background-size: 100%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  filter: drop-shadow(2px 2px #0085a3);
+  font-size: 50px;
+  font-weight:700;
+}
+
+.navbar-brand:hover{
+  font-size: 55px;
+}
+.navbar-nav,
+.nav-link.active,
+a:hover,
+.active {
+  color: blueviolet !important;
+  font-size: 20px;
+}
+
+/* footer */
+
+.footer-list {
+}
+.footer-links {
+}
+
+/* projects */
+
+.project {
+
+}
+
