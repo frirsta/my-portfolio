@@ -18,6 +18,7 @@
 
 body {
   font-family: "prodigy-sans", sans-serif;
+      background-color: #f7f4f2;
 }
 p {
   font-size: 16px;
@@ -44,6 +45,8 @@ header {
 .btn{
   border-radius: 0;
   padding: 10px 30px;
+  background-color: #000;
+  color: #fff;
 }
 
 .section {
@@ -73,7 +76,7 @@ header {
 
 .navbar-nav,
 .nav-link.active,
-a:hover,
+.nav-link:hover,
 .active {
   color: rgb(205, 206, 255) !important;
   font-size: 16px;
@@ -104,15 +107,17 @@ footer{
 }
 /* projects */
 .project{
-  width: 450px;
-  height: 400px;
-  border: 1px solid;
-margin: 30px auto;
-background-color: rgb(189, 189, 189);
+  width: fit-content;
+  border: none;
+  margin: 30px auto;
+  background-color: rgb(189, 189, 189);
+
 }
 .project-image {
   width: 400px;
-max-width: 80vw;
+  max-width: 80vw;
+  padding: 38px;
+  padding-bottom: 0px;
 }
 
 
@@ -134,4 +139,7 @@ label{
   border-radius: 0;
 }
 
+.form-button{
+  margin-top: 20px;
+}
 /* #CFB3FF  rgba(169, 192, 255, 1) */
