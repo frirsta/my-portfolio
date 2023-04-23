@@ -79,10 +79,21 @@ a:hover,
 }
 
 /* footer */
-
+footer{
+  border-top: 1px solid;
+}
 .footer-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  width: 50%;
+  margin: 0 auto;
 }
 .footer-links {
+  text-decoration: none;
+  color: #000;
 }
 
 /* skills */
