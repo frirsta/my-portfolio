@@ -1,8 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Libre Baskerville', serif;
 }
+
+body
 
 h1 {
   background-image: url("images/flowers.jpg");
@@ -14,6 +20,7 @@ h1 {
   -moz-text-fill-color: transparent;
   filter: drop-shadow(2px 2px #0085a3);
   font-size: 100px;
+  font-family: 'Libre Baskerville', serif;
 }
 
 header {
@@ -28,7 +35,7 @@ header {
 
 .button {
 }
-
+ 
 /* navbar */
 .navbar {
 }
@@ -64,7 +71,7 @@ header {
 .nav-link.active,
 a:hover,
 .active {
-  color: blueviolet !important;
+  color: rgb(205, 206, 255) !important;
   font-size: 20px;
 }
 
@@ -75,9 +82,14 @@ a:hover,
 .footer-links {
 }
 
+/* skills */
+.skills-container{
+  display: flex;
+}
 /* projects */
 
 .project {
 
 }
 
+/* #CFB3FF  rgba(169, 192, 255, 1) */
