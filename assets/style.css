@@ -1,26 +1,38 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+@font-face {
+  font-family: 'Merchant';
+  src: url(/assets/fonts/Merchant-Typeface/OpenType-TT/Merchant-ThinExpanded.ttf);
+}
 
-
+@font-face {
+  font-family: 'prodigy-sans';
+  src: url(/assets/fonts/prodigy-sans/fonts/webfonts/TTF/ProdigySans-Regular.ttf);
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'prodigy-sans', sans-serif;
 }
 
-body
-
+body{
+  font-family: 'prodigy-sans', sans-serif;
+}
+p{
+  font-size: 16px;
+}
 h1 {
-  background-image: url("images/flowers.jpg");
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  filter: drop-shadow(2px 2px #0085a3);
-  font-size: 100px;
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Merchant', sans-serif;
+  font-size: 60px;
+  line-height: 75px;
+  font-weight: 100;
+}
+
+h2{
+  font-family: 'Merchant', sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 100;
 }
 
 header {
@@ -52,27 +64,17 @@ header {
   margin: 0 50px;
 }
 .navbar-brand {
-  background-image: url("images/flowers.jpg");
-  background-size: 100%;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  filter: drop-shadow(2px 2px #0085a3);
-  font-size: 50px;
-  font-weight:700;
+  font-family: 'Merchant', sans-serif;
+
 }
 
-.navbar-brand:hover{
-  font-size: 55px;
-}
 .navbar-nav,
 .nav-link.active,
 a:hover,
 .active {
   color: rgb(205, 206, 255) !important;
   font-size: 20px;
+  font-family: 'Merchant', sans-serif;
 }
 
 /* footer */
