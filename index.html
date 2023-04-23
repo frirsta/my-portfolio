@@ -82,43 +82,41 @@
       <h2>Lets work together!</h2>
       <form>
         <div class="row">
-          <div class="col">
+          <div class="col-md-6">
+            <label for="full-name-id" class="form-label">Full name</label>
             <input
+            id="full-name-id"
               type="text"
-              class="form-control"
-              placeholder="First name"
-              aria-label="First name"
+              class="form-control form-text"
+              placeholder="Full name"
+              aria-label="Full name"
             />
           </div>
-          <div class="col">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Last name"
-              aria-label="Last name"
-            />
+          <div class="col-md-6">
+            <label for="email-id" class="form-label">Email</label>
+            <input type="email" class="form-control form-text" id="email-id" />
           </div>
+
         </div>
         <div class="row">
           <div class="col-md-6">
-            <label for="email-id" class="form-label">Email</label>
-            <input type="email" class="form-control" id="email-id" />
-          </div>
-
-          <div class="col-md-6">
-            <label class="form-label" for="phone">Enter your phone number:</label>
+            <label class="form-label" for="phone">Phone number:</label>
             <input
-            class="form-control" 
-              type="tel"
-              id="phone"
-              name="phone"
-              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+            class="form-control form-text" 
+            type="tel"
+            id="phone"
+            name="phone"
+            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
             />
+          </div>
+          <div class="col-md-6">
+            <label for="company-id" class="form-label">Company</label>
+            <input type="text" class="form-control form-text" id="company-id" />
           </div>
         </div>
       
-            <label class="form-label" for="message">Enter your phone number:</label>
-          <textarea class="form-control" id="message" aria-label="With textarea"></textarea>
+            <label class="form-label" for="message">Message</label>
+          <textarea class="form-control form-text" id="message" aria-label="With textarea"></textarea>
           <button type="submit" class="btn btn-outline-dark">Submit</button>
       </form>
     </div>

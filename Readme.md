@@ -24,4 +24,8 @@ blå
 #88B1FF
 
 Font:
+merchant
 https://befonts.com/downfile/517a09227c186c38e65cc6cad44bc5cd.342540
+
+prodigy
+https://befonts.com/downfile/ba1380d990e18481616446f3588862a6.120391
