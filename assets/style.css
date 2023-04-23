@@ -2,12 +2,12 @@
 
 @font-face {
   font-family: "Merchant";
-  src: url(/assets/fonts/Merchant-Typeface/OpenType-TT/Merchant-ExtraLightExpanded.ttf);
+  src: url(fonts/Merchant-Typeface/OpenType-TT/Merchant-ExtraLightExpanded.ttf);
 }
 
 @font-face {
   font-family: "prodigy-sans";
-  src: url(/assets/fonts/prodigy-sans/fonts/webfonts/TTF/ProdigySans-Medium.ttf);
+  src: url(fonts/prodigy-sans/fonts/webfonts/TTF/ProdigySans-Medium.ttf);
 }
 * {
   margin: 0;
