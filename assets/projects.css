@@ -1,0 +1,109 @@
+.icon {
+  padding-left: 10px;
+}
+.details-container{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+}
+.magazine-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.magazine-container {
+}
+.horizontal-line {
+  border-top: 2px solid #504f4f;
+  width: 200px;
+}
+.magazine-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
+.project-title {
+  font-size: 60px;
+}
+.project-description {
+  width: 50%;
+  font-family: "prodigy-sans-regular", "sans-serif";
+}
+.magazine-project {
+  height: 500px;
+  border-radius: 3px;
+}
+
+.project-detail-image {
+  width: 900px;
+  padding: 90px 70px;
+}
+
+.general-description,
+.about-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-weight: 500;
+  width: 100%;
+  padding: 100px 0;
+}
+.project-information {
+  font-family: "Merchant", sans-serif;
+  font-size: 30px;
+  width: 400px;
+}
+.website-container {
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.website-span {
+  color: #504f4f;
+  padding: 10px 0;
+}
+.website-live-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 20px;
+}
+.about-project {
+  border-top: 1px solid #504f4f;
+}
+.about-project-details {
+  text-transform: unset;
+
+}
+
+@media screen and (max-width: 1199px) {
+    .website-span{
+        font-size: 14px;
+    }
+    .website-live-link {
+        font-size: 17px;
+      }
+    .project-information{
+        font-size: 25px;
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 870px) {
+    .website-span{
+        font-size: 13px;
+    }
+    .website-live-link {
+        font-size: 16px;
+      }
+    .project-information{
+        font-size: 23px;
+        width: 250px;
+    }
+}

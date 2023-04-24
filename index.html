@@ -10,7 +10,7 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/style.css" />
     <title>Frirsta's Portfolio</title>
   </head>
   <body>
@@ -18,7 +18,15 @@
       <nav class="navbar navbar-expand-md bg-body-tertiary">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Frirsta's Portfolio</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
@@ -33,67 +41,119 @@
                 <a class="nav-link" href="#">Resumé</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="templates/magazine.html">Projects</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
-
             </ul>
           </div>
         </div>
       </nav>
     </header>
     <div class="home-section section container">
-        <h1>I'am a Full stack software developer based in Stockholm, Sweden.</h1>
-        <button type="button" class="btn btn-dark">Dark</button>
+      <h1>I'am a Full stack software developer based in Stockholm, Sweden.</h1>
+      <button type="button" class="btn btn-dark">Dark</button>
     </div>
     <div class="skills-sections section container">
       <h2>Skills</h2>
       <div class="skills-container">
         <div class="skill">
-          <img src="assets/images/html.png" alt="">
+          <img src="assets/images/html.png" alt="" />
         </div>
         <div class="skill">
-          <img src="assets/images/css.png" alt="">
+          <img src="assets/images/css.png" alt="" />
         </div>
         <div class="skill">
-          <img src="assets/images/javascript.png" alt="">
+          <img src="assets/images/javascript.png" alt="" />
         </div>
         <div class="skill">
-          <img src="assets/images/py.png" alt="">
+          <img src="assets/images/py.png" alt="" />
         </div>
         <div class="skill">
-          <img src="assets/images/react.png" alt="">
+          <img src="assets/images/react.png" alt="" />
         </div>
       </div>
     </div>
     <div id="projects" class="projects-section section container">
       <h2>Portfolio</h2>
-      <div class="container text-center">
+      <div class="projects-container container text-center">
         <div class="row">
-          <div class="col-md-6 project"><img src="assets/images/snap-it.png" class="project-image col-md-6"  alt="snap it home page"></div>
-          <div class="col-md-6 project"><img src="assets/images/magazine.png" class="project-image col-md-6"  alt="magazine home page"></div>
-         
+          <div class="project-container">
+          <div class="col-md-6 project">
+              <img
+                src="assets/images/snap-it.png"
+                class="project-image col-md-6"
+                alt="snap it home page"
+              />
+            </div>
+            <h3>Interactive sharing photos application</h3>
+          </div>
+          <div class="project-container">
+          <div class="col-md-6 project">
+              <img
+                src="assets/images/magazine.png"
+                class="project-image col-md-6"
+                alt="magazine home page"
+              />
+            </div>
+            <h3>Interactive Interior blog</h3>
+          </div>
         </div>
         <div class="row">
-          <div class="col-md-6 project"><img src="assets/images/yoga-studio.png" class="project-image col-md-6"  alt="yoga studio home page"></div>
-          <div class="col-md-6 project"><img src="assets/images/milestone.png" class="project-image col-md-6"  alt="yoga studio home page"></div>
+          <div class="project-container">
+          <div class="col-md-6 project">
+              <img
+                src="assets/images/yoga-studio.png"
+                class="project-image col-md-6"
+                alt="yoga studio home page"
+              />
+            </div>
+            <h3>Interactive Yoga Studio Website</h3>
+          </div>
+          <div class="project-container">
+          <div class="col-md-6 project">
+              <img
+                src="assets/images/milestone.png"
+                class="project-image col-md-6"
+                alt="yoga studio home page"
+              />
+            </div>
+            <h3>Interactive Yoga Studio Website</h3>
+          </div>
         </div>
         <div class="row">
-          <div class="col-md-6 project"><img src="assets/images/python.png" class="project-image col-md-6"  alt="python hangman game"></div>
-          <div class="col-md-6 project"><img src="assets/images/quiz.png" class="project-image col-md-6"  alt="javascript quiz"></div>
+          <div class="project-container">
+          <div class="col-md-6 project">
+              <img
+                src="assets/images/python.png"
+                class="project-image col-md-6"
+                alt="python hangman game"
+              />
+            </div>
+            <h3>Interactive hangman game</h3>
+          </div>
+          <div class="project-container">
+          <div class="col-md-6 project">
+              <img
+                src="assets/images/quiz.png"
+                class="project-image col-md-6"
+                alt="javascript quiz"
+              />
+            </div>
+            <h3>Interactive astrology game</h3>
+          </div>
         </div>
       </div>
     </div>
     <div id="contact" class="contact-section section container">
       <h2>Lets work together!</h2>
-      <form>
+      <form class="form-container">
         <div class="row">
           <div class="col-md-6">
             <label for="full-name-id" class="form-label">Full name</label>
             <input
-            id="full-name-id"
+              id="full-name-id"
               type="text"
               class="form-control form-text"
               placeholder="Full name"
@@ -104,17 +164,16 @@
             <label for="email-id" class="form-label">Email</label>
             <input type="email" class="form-control form-text" id="email-id" />
           </div>
-
         </div>
         <div class="row">
           <div class="col-md-6">
             <label class="form-label" for="phone">Phone number:</label>
             <input
-            class="form-control form-text" 
-            type="tel"
-            id="phone"
-            name="phone"
-            pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+              class="form-control form-text"
+              type="tel"
+              id="phone"
+              name="phone"
+              pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
             />
           </div>
           <div class="col-md-6">
@@ -122,21 +181,45 @@
             <input type="text" class="form-control form-text" id="company-id" />
           </div>
         </div>
-      
-            <label class="form-label" for="message">Message</label>
-          <textarea class="form-control form-text" id="message" aria-label="With textarea"></textarea>
-          <button type="submit" class="btn btn-outline-dark form-button">Submit</button>
+
+        <label class="form-label" for="message">Message</label>
+        <textarea
+          class="form-control form-text"
+          id="message"
+          aria-label="With textarea"
+        ></textarea>
+        <button type="submit" class="btn btn-outline-dark form-button">
+          Submit
+        </button>
       </form>
     </div>
-<footer>
-  <div class="footer-section section container">
-  <ul class="footer-list">
-    <li><a class="footer-links" aria-label="linkedin link" href="https://linkedin.com/in/frirsta">LinkedIn</a></li>
-    <li><a class="footer-links" aria-label="github link" href="https://github.com/frirsta">GitHub</a></li>
-    <li><a class="footer-links" aria-label="contact link" href="#contact">Contact</a></li>
-  </ul>
-</div>
-</footer>
+    <footer>
+      <div class="footer-section section container">
+        <ul class="footer-list">
+          <li>
+            <a
+              class="footer-links"
+              aria-label="linkedin link"
+              href="https://linkedin.com/in/frirsta"
+              >LinkedIn</a
+            >
+          </li>
+          <li>
+            <a
+              class="footer-links"
+              aria-label="github link"
+              href="https://github.com/frirsta"
+              >GitHub</a
+            >
+          </li>
+          <li>
+            <a class="footer-links" aria-label="contact link" href="#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
   </body>
 </html>
